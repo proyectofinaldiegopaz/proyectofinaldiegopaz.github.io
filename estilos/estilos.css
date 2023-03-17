@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior:auto;
+    background-color: grey;
+    background: #10383C;
+    background: -moz-radial-gradient(center, #10383C 0%, #183147 18%, #519DA5 100%);
+    background: -webkit-radial-gradient(center, #10383C 0%, #183147 18%, #519DA5 100%);
+    background: radial-gradient(ellipse at center, #10383C 0%, #183147 18%, #519DA5 100%);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+   }
+ 
+  body {
+    background-size: cover;
+    color: white;
+  }
+
+  @keyframes easeOutBounce {
+    0% {
+      font-size: 0;
+    }
+    37% {
+      font-size: 1.75em;
+    }
+    55% {
+      font-size: 1.3125em;
+    }
+    73% {
+      font-size: 1.75em;
+    }
+    82% {
+      font-size: 1.6275em;
+    }
+    91% {
+      font-size: 1.75em;
+    }
+    96% {
+      font-size: 1.715em;
+    }
+    100% {
+      font-size: 1.75em;
+      opacity: 1;
+    }
+   }
+  
+  .box {
+    -webkit-border-radius: 0px 40px 0px 40px;
+    -moz-border-radius: 0px 40px 0px 40px;
+    border-radius: 0px 40px 0px 40px;
+    -webkit-box-shadow: -1px 1px 23px 14px rgba(0,0,0,0.81); 
+    box-shadow: -1px 1px 23px 14px rgba(0,0,0,0.81);
+    width: 900px;
+    background: rgba(0, 0, 0, .4);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    color: white;
+    font-family:  'Great Vibes', cursive;
+   
+  }
+  
+  .box-img {
+    -webkit-border-radius: 0px 200px 0px 20px;
+    -moz-border-radius: 0px 20px 0px 20px;
+    border-radius: 0px 20px 0px 20px;
+  }
+  
+  .box h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5vw;
+    font-size: 0 auto;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+  }
+  
+  .box h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 30px
+  }
+  
+  .box p {
+    font-family: 'Great Vibes', cursive;
+    text-align: justify;
+  }
+
+  .box em {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2vw;
+  }
+
+.container { 
+  text-align: center;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  background-color: grey;
+  background: #10383C;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+li a {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2vw;
+  display: block;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #000000;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+p2.active {
+  background-color: #000000;
+  color: white;
+}
+
+
+

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior:auto;
+    background-color: grey;
+    background: #10383C;
+    background: -moz-radial-gradient(center, #10383C 0%, #183147 18%, #519DA5 100%);
+    background: -webkit-radial-gradient(center, #10383C 0%, #183147 18%, #519DA5 100%);
+    background: radial-gradient(ellipse at center, #10383C 0%, #183147 18%, #519DA5 100%);
+  }
+
+h3{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3vw;
+    color: black;
+  }
+  .contenedor-columnas{
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    background-color: grey;
+    background: #10383C;
+    background: -moz-radial-gradient(center, #10383C 0%, #183147 18%, #519DA5 100%);
+    background: -webkit-radial-gradient(center, #10383C 0%, #183147 18%, #519DA5 100%);
+    background: radial-gradient(ellipse at center, #10383C 0%, #183147 18%, #519DA5 100%);
+    -webkit-border-radius: 0px 40px 0px 40px;
+    -moz-border-radius: 0px 40px 0px 40px;
+    border-radius: 0px 40px 0px 40px;
+    -webkit-box-shadow: -1px 1px 23px 14px rgba(0,0,0,0.81); 
+    box-shadow: -1px 1px 23px 14px rgba(0,0,0,0.81);
+    max-width: 65%;
+    margin: auto;
+    background-color: #ffffff;
+    padding:50px;
+  }
+  .columnas{
+    column-count: 3; /* número de columnas */
+    column-gap: 100px; /* ancho de columnas */
+    column-rule: 5px outset #999999; /* separación de columnas */
+  }
+  .contenedor-columnas h4{
+    font-size: 2vw;
+    color: black;
+  }
+  .contenedor-columnas h5{
+    font-size: 2vw;
+    color: black;
+}
+  .contenedor-columnas h6{
+    font-size: 2vw;
+    color: black;
+}
+  .contenedor-columnas p{
+    font-size: 1.6vw;
+    color: black;
+  }
+  .container { 
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  ul { 
+    background-color: grey;
+    background: #10383C;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+   
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+  
+  li a {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2vw;
+    display: block;
+    color:black;
+    padding: 16px 32px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #000000;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  p2.active {
+    background-color: #000000;
+    color: white;
+  }
+  

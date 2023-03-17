@@ -1,0 +1,38 @@
+* .social ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+  .social ul {
+	background-color: grey;
+    background: #10383C;
+	align-items: center;
+	display: flex;
+	display:list-item;
+	background-color: #5e6d749a; 
+	
+  }
+  .social li{
+	justify-content: center;
+	position: relative;
+	display: block;
+	color: #666;
+	font-size: 30px;
+	height:60px;
+	line-height: 60px;
+	border-radius: 50%;
+	
+  }
+  .social a {
+	height: 8vh;
+	width: 8vh;
+	border-radius: 50%;
+	margin: 0 15px;
+	cursor: pointer;
+  }
+
+  
